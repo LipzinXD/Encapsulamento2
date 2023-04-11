@@ -1,9 +1,9 @@
 public class Principal {
-    public static void mian(String[] args) {
+    public static void main(String[] args) {
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Felipe");
         System.out.println(pessoa.getNome());
-        
+
         pessoa.setIdade(18);
         System.out.println(pessoa.getIdade());
 
